@@ -1,0 +1,28 @@
+{
+  "name": "chromedrpc",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence for Google Chrome",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "npm run lint && npm run build",
+    "lint": "cd src && eslint . *.js",
+    "lint:fix": "cd src && eslint . *.js --fix",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireController1847/chrome-drpc.git"
+  },
+  "author": "FireController#1847",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FireController1847/chrome-drpc/issues"
+  },
+  "homepage": "https://github.com/FireController1847/chrome-drpc#readme",
+  "dependencies": {
+    "discord-rich-presence": "0.0.6",
+    "eslint": "^4.18.0",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0"
+  }
+}
